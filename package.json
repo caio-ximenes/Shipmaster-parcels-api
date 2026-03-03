@@ -1,0 +1,32 @@
+{
+  "name": "shipmaster-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "“Este projeto faz parte de um sistema open source de gestão de encomendas para condomínios, desenvolvido como projeto de estudo focado em boas práticas de backend e arquitetura.”",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caio-ximenes/Shipmaster-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caio-ximenes/Shipmaster-api/issues"
+  },
+  "homepage": "https://github.com/caio-ximenes/Shipmaster-api#readme",
+  "dependencies": {
+    "@prisma/client": "6.19",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.8",
+    "prisma": "6.19"
+  }
+}
